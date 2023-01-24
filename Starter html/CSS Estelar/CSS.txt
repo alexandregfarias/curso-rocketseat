@@ -1,0 +1,5 @@
+O que significa CSS?
+* Cascading Style Sheet [folha de estilo em cascata]
+* Código para criar estílos no HTML
+* Não é uma linguagem de programação
+* É uma linguagem style sheet
