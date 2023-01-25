@@ -3,3 +3,13 @@ O que significa CSS?
 * Código para criar estílos no HTML
 * Não é uma linguagem de programação
 * É uma linguagem style sheet
+
+
+
+Referências de estudo:
+
+pt-BR
+https://developer.mozilla.org/pt-BR/docs/Web/CSS
+
+en-US
+https://developer.mozilla.org/en-US/docs/Web/CSS
