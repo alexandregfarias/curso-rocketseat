@@ -1,0 +1,31 @@
+<!--Escopo determina a visibilidade de alguma variável no JS-->
+
+<!--Block statement { }-->
+<!--Escopo usando Var
+Variável global e local. -->
+<script>
+
+    console.log('Existe X antes do bloco?', x)
+    {
+        var x = 0
+        console.log(x)
+    }
+    console.log('Existe X depois do bloco?', x)
+</script>
+
+<!--Escopo usando let-->
+
+<script>
+
+    console.log('Existe Y antes do bloco?', y)
+
+    {
+        let y = 0
+        console.log('Existe y', y)
+    }
+
+    console.log('Existe Y depois do bloco?', y)
+
+</script>
+
+<!--Escopo usando const-->
