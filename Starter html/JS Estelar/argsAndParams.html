@@ -1,0 +1,57 @@
+<script>
+    // Function expression
+    const sum = function (number1, number2) {
+        return number1 + number2;
+    }
+    console.log(`Sum is: ${sum(1, 4)}`)
+</script>
+
+<script>
+    function fazerSuco(fruta1, fruta2) {
+        return fruta1 + fruta2;
+    }
+    const suco = fazerSuco('banana', 'laranja')
+
+    console.log(suco)
+
+</script>
+
+
+<script>
+    // Function Scope
+    let subject = 'Create Video'
+
+    function createThink(subject) {
+        subject = 'Cascade'
+        return subject;
+    }
+
+    console.log(createThink(subject))
+    console.log(subject)
+</script>
+
+<script>
+    // Function Hoisting
+
+    sayMyName()
+
+    function sayMyName() {
+        console.log('Alexandre')
+    }
+</script>
+
+<script>
+    // Função construtora
+    // Expressão new
+    // Criar um novo objeto
+    // this keyword
+
+    function Person(name) {
+        this.name = name
+
+    }
+
+    const xande = new Person("Xande")
+    console.log(xande)
+
+</script>
