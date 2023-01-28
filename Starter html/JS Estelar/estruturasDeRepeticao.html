@@ -1,0 +1,59 @@
+<script>
+
+    for (let i = 0; i < 10; i++) {
+        console.log(i)
+        // Caso queira parar condição em algum momento, break;
+        // Caso queira ignorar o resto do código no momento, mas continuar o loop, basta usar o cotinue;
+    }
+    console.log('Final do for.')
+
+
+</script>
+
+
+<script>
+    // Normalmente se usa While quando não se sabe o momento da parada.
+    let i = 12312312312;
+    while (i > 10) {
+        console.log(i)
+        i /= 35;
+
+    }
+
+</script>
+
+
+<!-- For of -->
+
+<script>
+    let name = 'Alex'
+    let names = ['João', 'Paulo', 'Pedro']
+
+    for (let char of name) {
+        console.log(char)
+    }
+
+    for (let name of names) {
+        console.log(name)
+    }
+</script>
+
+
+<!-- For in -->
+
+<script>
+
+    let person = {
+        name: 'John',
+        age: 30,
+        weight: 88.5
+    }
+
+    for (let property in person) {
+        console.log(property)
+        console.log(person[property])
+
+    }
+
+
+</script>

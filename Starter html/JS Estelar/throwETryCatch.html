@@ -1,0 +1,25 @@
+<script>
+    function sayMyName(name = 'Alexandre') {
+        if (name == '') {
+            throw "Nome necessário"
+        }
+
+        console.log(name)
+    }
+
+    try {
+        sayMyName()
+    } catch (e) {
+        console.log(e)
+    }
+
+    console.log('Depois do erro')
+
+
+</script>
+
+<!--
+    Tente executar um bloco de código. ( try )
+    Se der um erro, o erro será disparado (throw)
+    E então, esse erro poderá ser capturado na aplicação. ( catch )
+-->
