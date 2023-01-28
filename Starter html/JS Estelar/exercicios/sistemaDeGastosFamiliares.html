@@ -1,0 +1,29 @@
+<script>
+
+    let gastosFamiliares = {
+        receitas: [200, 300, 700],
+        despesas: [500, 500]
+    }
+
+    function sum(array) {
+        let total = 0;
+
+        for (let value of array) {
+            total += value
+        }
+
+        return total;
+    }
+
+    function calculateBalance() {
+        const calcularReceita = sum(gastosFamiliares.receitas)
+        const calcularDespesas = sum(gastosFamiliares.despesas)
+
+        return calcularReceita - calcularDespesas;
+
+    }
+
+    console.log(calculateBalance())
+
+
+</script>
